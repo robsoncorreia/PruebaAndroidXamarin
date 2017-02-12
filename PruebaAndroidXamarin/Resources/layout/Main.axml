@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp">
+    <TextView
+        android:text="Conversor de Moedas"
+        android:layout_width="wrap_content"
+        android:gravity="center"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true" />
+    <TextView
+        android:text="Real Brasileiro"
+        android:layout_width="wrap_content"
+        android:layout_marginTop="180dp"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:text="Dolar Americano"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80dp"
+        android:id="@+id/textView1" />
+    <EditText
+        android:inputType="number"
+        android:layout_width="80.0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="160dp"
+        android:minWidth="100dp"
+        android:layout_alignParentRight="true"
+        android:id="@+id/txtReal" />
+    <EditText
+        android:inputType="number"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:layout_alignParentRight="true"
+        android:minWidth="100dp"
+        android:id="@+id/txtDola" />
+    <Button
+        android:id="@+id/btnCalc"
+        android:background="#ff0000"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Calcular"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="240dp" />
+</RelativeLayout>
